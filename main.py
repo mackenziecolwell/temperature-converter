@@ -7,7 +7,7 @@ def fahrenheitToCelsius(tempFahrenheit):
     return tempCelsius
 
 temp = float(input("Enter a temperature: "))
-if input("(1) Convert to Celsius \n(2)Convert to Fahrenheit\nEnter 1/2: ") == "1":
+if input("(1) Convert to Celsius\n(2)Convert to Fahrenheit\nEnter 1/2: ") == "1":
     print(float(fahrenheitToCelsius(temp)))
 else:
     print(float(celsiusToFahrenheit(temp)))
